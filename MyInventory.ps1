@@ -19,8 +19,8 @@ https://github.com/ian8667/powershell/blob/master/Get-ServerInfo.ps1
 $servers = @("localhost")
 
 # webhook endpoint and access token to write in this sheet
-$webhook = "https://script.google.com/macros/s/<id>/exec"
-$token = "xxxxxxxxxxxx-xxxxxxxxxx-xxxxxxxxx-xxxxx"
+$webhook = "https://script.google.com/macros/s/AKfycbyc2qdCZ6_P7uBIvOTOtXHE3NlD-5GeRCZDS7w99JOFIlkyesk/exec"
+$token = "5e041d8d-7cb6-4bd7-85eb-1c96f5a96998"
  
 # config class to get information and sheet to write this information
 $configs = '[
@@ -57,7 +57,7 @@ ForEach ($server in $servers) {
 			
 			if($config.sheet -eq "manufacture") {
 				# the service tag only is read in manufacture session. I save this information to use in another posts data
-				$data.sevice_tag = $data.data.SerialNumber
+				$data.service_tag = $data.data.SerialNumber
 			}
 			
 			# convert data powershell to json to post
