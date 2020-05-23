@@ -19,4 +19,4 @@ $token = "xxxxxxxxxxxx-xxxxxxxxxx-xxxxxxxxx-xxxxx"
 |-|-|
 |***$servers***|list servers name to execute this script|
 |***$webhook***|webhook endpoint|
-|***$token***|autorization token webhook write in your spreadsheet|
+|***$token***|authorization token webhook write in your spreadsheet|
