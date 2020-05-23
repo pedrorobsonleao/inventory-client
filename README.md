@@ -20,3 +20,8 @@ $token = "xxxxxxxxxxxx-xxxxxxxxxx-xxxxxxxxx-xxxxx"
 |***$servers***|list servers name to execute this script|
 |***$webhook***|webhook endpoint|
 |***$token***|authorization token webhook write in your spreadsheet|
+
+## references
+
+* [Get Server Inventory: CPU, Memory, and OS information. Export to CSV.](https://gallery.technet.microsoft.com/scriptcenter/PowerShell-Script-Get-beced710)
+* [powershell/Get-ServerInfo.ps1](https://github.com/ian8667/powershell)
