@@ -6,3 +6,17 @@ The code write in MyInventory.ps1 is a webhook client used with the [google-spre
 Create a simple MS Windows inventory to your machines.
 
 Write your spreadsheet and have the control of your windows machines.
+
+```powershell
+# server or server list to execute this script
+$servers = @("localhost")
+
+# webhook endpoint and access token to write in this sheet
+$webhook = "https://script.google.com/macros/s/<id>/exec"
+$token = "xxxxxxxxxxxx-xxxxxxxxxx-xxxxxxxxx-xxxxx"
+```
+|variable|description|
+|-|-|
+|***$servers***|list servers name to execute this script|
+|***$webhook***|webhook endpoint|
+|***$token***|autorization token webhook write in your spreadsheet|
